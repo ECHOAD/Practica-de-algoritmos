@@ -1,0 +1,133 @@
+Desarrollar un algoritmo que permita cortarse el pelo un fin de semana, introducir el dia por teclado
+Cort_Pelo_fin de semana
+Inicio
+	1 Definir a como entero
+	2 Identificar donde nos vamos a recortar
+	3 Si no sabemos a donde vamos a recortarnos 
+		Buscar en el teléfono lugares para recortarse
+	4 Identificar que dia es
+	5 Si es Fin de semana
+		Escribir  “es sábado o domingo?”
+		Leer a
+		Escribir “ A pelarse, es”, “ ”, a
+ 	Sino	
+		Escribir “No es fin de semana”
+8Ir hacia el lugar identificado de cualquier manera
+	9 Recortarse
+	10 Pagar la recortada
+Fin	
+		
+
+	
+	
+
+
+
+
+
+Desarrollar un algoritmo que  reciba 50 numeros y muestre  por pantalla los números pares e impares y evalue si se introdujo un carácter no valido, mostrando un mensaje “ El valor introducido no es valido”
+Algoritmo Num_PEI_50
+	x <- Num
+	Repetir
+		Escribir 'Digite Numero'
+		Leer x
+		Si x=0 Entonces
+			Escribir 'Digito no valido :(, Trate de nuevo'
+		SiNo
+			Escribir x
+		FinSi
+	Hasta Que x<>0
+	Repetir
+		Leer x
+		Escribir x
+		Si x MOD 2=0 Y x<>0 Entonces
+			Escribir 'Es par'
+		FinSi
+		Si x mod 2 <>0  Entonces
+			Escribir 'Es Impar'
+		FinSi
+		c <- c+1
+		a <- c=3
+	Hasta Que c=3
+	Si x=0 Entonces
+		Escribir  'Este no es un valor valido'
+	FinSi
+FinAlgoritmo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Crear 3 variables numéricas con el valor (Num1, Num2 y Num3) y en otra variable numérica (Resultado) guardar el valor de la suma de las 3 variables. Mostrar por pantalla el mensaje "La suma es: ".
+
+Algoritmo sin_titulo
+	1 Definir Num1 , Num2, Num3 como Numero
+	2 Escribir 'Digite Sus 3 numero'
+	3 Leer Num1,Num2,Num3
+	4 Si (Num1,Num2,Num3)=" " Entonces
+		Repetir
+			Escribir 'Digite Sus 3 numero'
+			Leer Num1,Num2,Num3
+		Hasta Que (Num1,Num2 ,Num3)<>""
+	SiNo
+		Resul <- Num1+Num2+Num3
+	
+	FinSi 
+	5 Escribir 'El resultado es',' ',Resul
+FinAlgoritmo
+
+
+
+
+
+
+
+
+
+
+Pedir al usuario la matricula, nombre y edad de un estudiante y mostrar el siguiente mensaje: “Su matricula es XXXX, Te llamas” <nombre>” y tienes” <años>” años”
+
+Algoritmo Inf_Estu
+	1 Definir Nombre Como Caracter
+	2 Definir  Matri, Edad como entero
+	3 Escribir  "Por favor digite su matricula"
+	4 Leer Matri
+	5 Escribir  "Digite su nombre y edad"
+	6 Leer Nombre, Edad
+	7 Escribir "Su matricula es"," ",Matri," ","Te llamas"," ",Nombre," ","y"," ","Tienes"," ",Edad," ","Años"
+FinAlgoritmo
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recorre los números del 1 al 70. Muestra los números pares.
+
+Algoritmo Del_70
+1	C<-0
+2	Repetir
+		C<- c+1
+		Escribir c
+		Si c mod 2=0
+			Escribir  "Es par"," ",c
+		FinSi
+	Hasta Que C=70
+FinAlgoritmo
+
